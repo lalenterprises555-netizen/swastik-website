@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swastik Data Create Solution | Software & Scanning Services</title>
+    <style>
+        /* बेसिक सेटिंग्स */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f0f2f5; 
+            color: #333; 
+        }
+        
+        /* हेडर डिज़ाइन */
+        header { 
+            background-color: #0a192f; 
+            color: #64ffda; 
+            padding: 30px 20px; 
+            text-align: center; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
+        }
+        header h1 { margin: 0; font-size: 36px; letter-spacing: 1px; }
+        header p { margin: 10px 0 0; font-size: 18px; color: #ccd6f6; }
+
+        /* मेन कंटेनर */
+        .container { 
+            max-width: 1050px; 
+            margin: 40px auto; 
+            padding: 0 20px;
+        }
+
+        /* सेक्शन हेडिंग */
+        .section-title {
+            text-align: center;
+            color: #0a192f;
+            font-size: 28px;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #64ffda;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        
+        .title-wrapper { text-align: center; margin-bottom: 20px; }
+
+        /* ग्रिड लेआउट (बॉक्सेस के लिए) */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 60px;
+        }
+
+        /* कार्ड डिज़ाइन */
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid #007bff;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .card.scanning { border-top-color: #28a745; }
+        
+        /* कार्ड के अंदर की इमेज */
+        .card-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #eaeaea;
+        }
+
+        .card h3 { margin-top: 0; color: #0a192f; font-size: 20px; }
+        .card p { color: #555; line-height: 1.6; font-size: 15px; flex-grow: 1; }
+        
+        .service-note {
+            color: #d9534f;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        /* बटन्स (Download & Contact) */
+        .btn { 
+            display: block; 
+            text-align: center;
+            color: white; 
+            padding: 12px 20px; 
+            margin-top: 10px;
+            font-size: 16px; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: bold; 
+            transition: background 0.3s; 
+        }
+        .download-btn { background-color: #007bff; }
+        .download-btn:hover { background-color: #0056b3; }
+        
+        .contact-btn { background-color: #28a745; }
+        .contact-btn:hover { background-color: #218838; }
+
+        /* कांटेक्ट सेक्शन */
+        .contact-section {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-bottom: 50px;
+        }
+        .contact-section h2 { color: #0a192f; margin-top: 0; }
+        .contact-section p { font-size: 18px; color: #444; }
+        
+        /* फुटर */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0a192f;
+            color: #8892b0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- हेडर सेक्शन -->
+    <header>
+        <h1>Swastik Data Create Solution</h1>
+        <p>Premium Software Tools & Professional Scanning Services</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- सॉफ्टवेयर टूल्स सेक्शन -->
+        <div class="title-wrapper">
+            <h2 class="section-title">💻 Our Automation Software Tools</h2>
+        </div>
+        
+        <div class="grid-container">
+            <!-- Renamer Tool -->
+            <div class="card">
+                <img src="https://dummyimage.com/400x200/0a192f/64ffda&text=Renamer+Tool+Image" alt="Renamer Tool" class="card-img">
+                <h3>🔄 Ultimate File Renamer</h3>
+                <p>घंटों का काम सेकंडों में! एक ही क्लिक में अपनी हज़ारों फाइल्स को पूरी सटीकता और सुरक्षित तरीके से रीनेम करें।</p>
+                <a href="#" class="btn download-btn">⬇️ Download Tool</a>
+            </div>
+
+            <!-- Image Sorting Software -->
+            <div class="card">
+                <img src="https://dummyimage.com/400x200/0a192f/64ffda&text=Image+Sorting+Tool" alt="Image Sorting" class="card-img">
+                <h3>🖼️ Image Sorting Software</h3>
+                <p>ढेरों इमेजेस को ऑटोमैटिक तरीके से उनके नाम, डेट या पैटर्न के हिसाब से अलग-अलग फोल्डर्स में सॉर्ट करें।</p>
+                <a href="#" class="btn download-btn">⬇️ Download Tool</a>
+            </div>
+
+            <!-- Swastik PDF Converter -->
+            <div class="card">
+                <img src="https://dummyimage.com/400x200/0a192f/64ffda&text=PDF+Converter+Tool" alt="PDF Converter" class="card-img">
+                <h3>📄 Swastik PDF Converter</h3>
+                <p>हज़ारों JPG इमेजेस को सिंगल या बैच प्रोसेस में हाई-क्वालिटी PDF में कन्वर्ट करें। स्कैनिंग प्रोजेक्ट्स के लिए बेस्ट।</p>
+                <a href="#" class="btn download-btn">⬇️ Download Tool</a>
+            </div>
+        </div>
+
+        <!-- स्कैनिंग सर्विसेज सेक्शन -->
+        <div class="title-wrapper">
+            <h2 class="section-title">🖨️ Professional Scanning Services</h2>
+        </div>
+        
+        <div class="grid-container">
+            <!-- Document Scanning -->
+            <div class="card scanning">
+                <img src="https://dummyimage.com/400x200/28a745/ffffff&text=Document+Scanning" alt="Document Scanning" class="card-img">
+                <h3>📑 High-Speed Document Scanning</h3>
+                <p>We provide high-speed, bulk document digitization using industrial-grade Kodak and Fujitsu scanners. Fast, secure, and 100% accurate data processing for large-scale projects.</p>
+                <p class="service-note">If you require these services, please contact us.</p>
+                <a href="#contactUs" class="btn contact-btn">📞 Contact Us</a>
+            </div>
+
+            <!-- Answer Sheet Scanning -->
+            <div class="card scanning">
+                <img src="https://dummyimage.com/400x200/28a745/ffffff&text=Answer+Sheet+Scanning" alt="Answer Sheet Scanning" class="card-img">
+                <h3>📝 Answer Sheet Scanning</h3>
+                <p>Secure and rapid scanning of answer sheets for schools, universities, and examination boards with strict confidentiality protocols.</p>
+                <p class="service-note">If you require these services, please contact us.</p>
+                <a href="#contactUs" class="btn contact-btn">📞 Contact Us</a>
+            </div>
+
+            <!-- OMR Scanning -->
+            <div class="card scanning">
+                <img src="https://dummyimage.com/400x200/28a745/ffffff&text=OMR+Scanning" alt="OMR Scanning" class="card-img">
+                <h3>✅ OMR Sheet Scanning & Processing</h3>
+                <p>High-accuracy Optical Mark Recognition (OMR) scanning and instant data extraction for fast evaluation of objective test sheets.</p>
+                <p class="service-note">If you require these services, please contact us.</p>
+                <a href="#contactUs" class="btn contact-btn">📞 Contact Us</a>
+            </div>
+        </div>
+
+        <!-- कांटेक्ट सेक्शन -->
+        <div class="contact-section" id="contactUs">
+            <h2>🔒 Contact Us for ID/Password & Services</h2>
+            <p>Our premium software tools require a valid <strong>ID & Password</strong> to operate.</p>
+            <p>To get your login credentials or to discuss scanning projects, please reach out to us:</p>
+            <p>💬 <strong>WhatsApp Only:</strong> <a href="https://wa.me/919015966832" style="text-decoration: none; color: #28a745; font-weight: bold;">+91-9015966832</a></p>
+            <p>📧 <strong>Email:</strong> info@swastikdatacreatesolution.com</p>
+        </div>
+
+    </div>
+
+    <!-- फुटर -->
+    <footer>
+        &copy; 2026 Swastik Data Create Solution. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
